@@ -1,0 +1,102 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.skyland {
+  width: 100%;
+  height: 1500px;
+  background-color: white;
+}
+.skyland__top {
+  width: 100%;
+  height: 90px;
+  background-color: rgba(238, 238, 238, 0.9333333333);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.skyland__left .list {
+  display: flex;
+}
+.skyland__left .items {
+  padding: 0 35px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.skyland__header h1 {
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: green;
+}
+.skyland__header span {
+  color: #434a6f;
+}
+.skyland .iconbutton .text {
+  color: white;
+  display: inline-block;
+  line-height: 1.6;
+  padding-left: 10px;
+  cursor: pointer;
+  background-color: #35bf76;
+  padding: 10px 10px;
+  border: 1px solid rgba(238, 238, 238, 0.9333333333);
+  border-radius: 6px;
+  line-height: 1.6;
+  opacity: 1;
+  font-weight: 500;
+}
+.skyland .iconbutton .text:hover {
+  opacity: 0.8;
+}
+.skyland .iconbutton .icon-search {
+  color: black;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.skyland__center__mid {
+  margin-top: 100px;
+}
+.skyland__center__top {
+  text-align: center;
+}
+.skyland__center__top span {
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  color: #434a6e;
+  font-size: 35px;
+  font-weight: 700px;
+  cursor: pointer;
+}
+.skyland__center__top .paragrap {
+  margin-top: 30px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #434a6e;
+  opacity: 0.8;
+}
+.skyland__image {
+  width: 100%;
+}
+
+.skyland__image__flex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.skyland__wrap {
+  width: 33.3333333333%;
+}
+
+.image__skyland {
+  width: 360px;
+  height: 240px;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */

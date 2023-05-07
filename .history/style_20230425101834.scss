@@ -1,0 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+*{
+    font-size: 16.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.loadingpage {
+    &__heading {
+        width: 1263px;
+        height: 668px;
+    }
+}

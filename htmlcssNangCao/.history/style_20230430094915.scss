@@ -1,0 +1,103 @@
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+.skyland {
+    width: 100%;
+    height: 1500px;
+    background-color: white;
+    &__top {
+        
+        width: 100%;
+        height: 90px;
+        background-color: #eeee;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &__left {
+        .list {
+          display: flex;
+        }
+        .items {
+            padding: 0 35px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+    &__header{
+        h1 {
+            font-weight: bold;
+            cursor: pointer;
+             text-transform: uppercase;
+             color: green;
+        }
+        span {
+            color:#434a6f;
+        }
+    }
+    .iconbutton {
+         
+        .text {
+            color: white;
+            display: inline-block;
+            line-height: 1.6;
+            padding-left: 10px;
+            cursor: pointer;
+            background-color: #35bf76;
+         padding: 10px 10px;
+         border: 1px solid #eeee;
+         border-radius: 6px;
+         line-height: 1.6;
+         opacity: 1;
+         font-weight: 500;
+         &:hover {
+            opacity: 0.8;
+         }
+        }
+        .icon-search {
+            color:black;
+            padding-right: 10px;
+            cursor: pointer;
+            
+        }
+    }
+ &__center__mid{
+    margin-top:100px ;
+ }
+ &__center__top {
+    text-align: center;
+    
+    span {
+        display: inline-block;
+        text-transform: uppercase;
+        text-align: center;
+        color: #434a6e;
+        font-size: 35px;
+        font-weight: 700px;
+        cursor: pointer;
+    }
+    .paragrap {
+        margin-top: 30px;
+        line-height: 1.6;
+        font-size: 18px;
+        color: #434a6e;
+        opacity: 0.8;
+    }
+}
+     &__image {
+        
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+     }
+     &__flex {
+        width:100%;
+     }
+     
+}
+.skyland__wrap {
+    width: calc(100%/3);
+}

@@ -1,0 +1,15 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+.skyland {
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    &__top {
+        width: 100%;
+        height: 80px;
+        background-color: red;
+    }
+}
